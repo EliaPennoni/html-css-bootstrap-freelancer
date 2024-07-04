@@ -8,3 +8,35 @@
 .my-bg-light-dark {
     background-color: #3A546D;
 }
+
+.stella::before, 
+.stella::after{
+    content: "";
+    display: inline-block;
+    width: 25%;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+}
+.stella-black::before, 
+.stella-black::after{
+    content: "";
+    display: inline-block;
+    width: 25%;
+    height: 4px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+.icons {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    border:1px solid white;
+}
+
+#main-img {
+    max-width: 250px;
+}
